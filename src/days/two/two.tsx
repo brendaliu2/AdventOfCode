@@ -1,6 +1,6 @@
 import { input } from './twoInput';
 
-export default function Two() {
+export default function Two(): JSX.Element {
     const maxScore = rockPaperScissors(input);
     const maxScore2 = rockPaperScissors2(input);
 

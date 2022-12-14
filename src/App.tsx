@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import One from './days/one/one';
 import Two from './days/two/two';
+import Three from './days/three/three';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       </h1>
       <One />
       <Two />
+      <Three />
 
     </div>
   );

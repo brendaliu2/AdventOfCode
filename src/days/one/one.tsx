@@ -1,6 +1,6 @@
 import { input } from "./oneInput";
 
-export default function One() {
+export default function One(): JSX.Element {
     const maxFood = findMax(input);
     const [first, second, third] = findTopThree(input)
 
