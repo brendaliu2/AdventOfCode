@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import One from './days/one/one';
+import Two from './days/two/two';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         Advent of Code
       </h1>
       <One />
+      <Two />
 
     </div>
   );
